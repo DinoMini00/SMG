@@ -1,0 +1,4 @@
+places365_standard
+src/env/data
+*.pyc
+places365standard_easyformat.tar

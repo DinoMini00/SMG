@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0 python3 src/train.py \
+	--algorithm smg \
+	--seed 0 \
+	--eval_mode all \
+	--domain_name walker \
+	--task_name walk \
+	--mask_percentage 0.06 \
+	--consistency_scale 0.5 \
+	--fore_scale 0.1 \
+	--mask_scale 1 \
+	--back_scale 2 \
+	--action_scale 1 \
+	--recon_scale 1 \
+	--action_repeat 4
